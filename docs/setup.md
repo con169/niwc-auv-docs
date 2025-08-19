@@ -46,11 +46,12 @@ sudo apt-get install libgdal-dev
 
  in autoproj, modify manifest. Add this after "rock.core" in layout.
 Be careful of indentation.
+```
 - slam/mtk
 - slam/pose_estimation
 - slam/uwv_kalman_filters
 - slam/orogen/uwv_kalman_filters
-
+```
 aup, amake to check
 
 ## (3) Replacing fetched libraries that contain errors

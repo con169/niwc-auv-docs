@@ -55,7 +55,7 @@ if (!conf.quiet)
                             i, det->id, det->hamming, det->decision_margin);
 ```
 
-![images/opencv_apriltags_figure1]
+![figure 1](./../images/opencv_apriltags_figure1.png)
 
 At this point, try amake so you can see the errors with opencv
 
