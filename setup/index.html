@@ -645,19 +645,12 @@ amake
 sudo apt-get install libgdal-dev
 </code></pre>
 <p>in autoproj, modify manifest. Add this after "rock.core" in layout.
-Be careful of indentation.
-- slam/mtk</p>
-<ul>
-<li>
-<p>slam/pose_estimation</p>
-</li>
-<li>
-<p>slam/uwv_kalman_filters</p>
-</li>
-<li>
-<p>slam/orogen/uwv_kalman_filters</p>
-</li>
-</ul>
+Be careful of indentation.</p>
+<pre><code>- slam/mtk
+- slam/pose_estimation
+- slam/uwv_kalman_filters
+- slam/orogen/uwv_kalman_filters
+</code></pre>
 <p>aup, amake to check</p>
 <h2 id="3-replacing-fetched-libraries-that-contain-errors">(3) Replacing fetched libraries that contain errors</h2>
 <p>Libraries: <code>perception/orogen/apriltags</code> and <code>slam/orogen/uwv_kalman_filters</code> both have build errors.
