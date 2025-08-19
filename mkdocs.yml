@@ -1,0 +1,7 @@
+site_name: Setting up ROCK on Ubuntu 20.04
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.magiclink  
