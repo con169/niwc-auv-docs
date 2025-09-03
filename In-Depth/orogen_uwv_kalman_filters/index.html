@@ -14,7 +14,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
@@ -60,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#replace-with-tom-creutzs-versions-in" class="md-skip">
+        <a href="#basic-step-by-step-fixes" class="md-skip">
           Skip to content
         </a>
       
@@ -327,8 +327,19 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Orogen uwv kalman filters
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -341,6 +352,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-step-by-step-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic step by step fixes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic step by step fixes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fix-time-unit-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      fix time unit issues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      (Advanced) Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="(Advanced) Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clone-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clone Method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -371,8 +447,62 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#basic-step-by-step-fixes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Basic step by step fixes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Basic step by step fixes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fix-time-unit-issues" class="md-nav__link">
+    <span class="md-ellipsis">
+      fix time unit issues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#advanced-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      (Advanced) Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="(Advanced) Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clone-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Clone Method
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -388,15 +518,20 @@
 
 
 
+  <h1>Orogen uwv kalman filters</h1>
+
 <p>These steps are basically 1:1 with notes provided by Drew</p>
-<h1 id="replace-with-tom-creutzs-versions-in">replace with Tom Creutz's versions in:</h1>
+<ul>
+<li>Some changes are not listed here so it would be best to clone if you want latest changes</li>
+</ul>
+<h2 id="basic-step-by-step-fixes">Basic step by step fixes</h2>
 <p>-/home/vboxuser/rock/slam/uwv_kalman_filters
-with:
-<a href="https://github.com/tomcreutz/slam-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-uwv_kalman_filters.git</a></p>
+with:</p>
+<p><a href="https://github.com/tomcreutz/slam-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-uwv_kalman_filters.git</a></p>
 <p>-/home/vboxuser/rock/slam/orogen/uwv_kalman_filters
-with:
-<a href="https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git</a></p>
-<h1 id="fix-time-unit-issues">fix time unit issues</h1>
+with:</p>
+<p><a href="https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git</a></p>
+<h3 id="fix-time-unit-issues">fix time unit issues</h3>
 <ul>
 <li>
 <p>/home/vboxuser/Desktop/rock/slam/orogen/uwv_kalman_filters/tasks/PoseEstimator.cpp</p>
@@ -415,6 +550,16 @@ with:
 </li>
 </ul>
 <p>amake</p>
+<h2 id="advanced-changes">(Advanced) Changes</h2>
+<ul>
+<li>Added web socket to send messages of log samples in rigid body state format</li>
+<li>adding implementation to apriltag transformer functions</li>
+</ul>
+<h3 id="clone-method">Clone Method</h3>
+<ul>
+<li>replace orogen folder with mine at</li>
+</ul>
+<p><a href="https://github.com/con169/slam-orogen-uwv_kalman_filters.git">https://github.com/con169/slam-orogen-uwv_kalman_filters.git</a></p>
 
 
 
