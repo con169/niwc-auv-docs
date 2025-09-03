@@ -1,5 +1,6 @@
 https://github.com/con169/perception-orogen-apriltags
 - You can either follow the instructions below or clone from my repo
+- Some changes are not listed here so it would be best to clone if you want latest changes
 
 ~/dev/rock
 `autoproj show opencv`
