@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../opencv_apriltags/">
+        <link rel="prev" href="../../side_qol/">
       
+      
+        <link rel="next" href="../orogen_uwv_kalman_filters/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>Orogen uwv kalman filters - Setting up ROCK on Ubuntu 20.04</title>
+        <title>Opencv apriltags - Setting up ROCK on Ubuntu 20.04</title>
       
     
     
@@ -60,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#basic-step-by-step-fixes" class="md-skip">
+        <a href="#orogenapriltagsapriltagsorogen" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Orogen uwv kalman filters
+              Opencv apriltags
             
           </span>
         </div>
@@ -276,7 +278,7 @@
   
   
   <span class="md-ellipsis">
-    In Depth
+    Changes
     
   </span>
   
@@ -287,32 +289,9 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            In Depth
+            Changes
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../opencv_apriltags/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Opencv apriltags
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
             
               
                 
@@ -333,7 +312,7 @@
   
   
   <span class="md-ellipsis">
-    Orogen uwv kalman filters
+    Opencv apriltags
     
   </span>
   
@@ -346,7 +325,7 @@
   
   
   <span class="md-ellipsis">
-    Orogen uwv kalman filters
+    Opencv apriltags
     
   </span>
   
@@ -367,50 +346,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-step-by-step-fixes" class="md-nav__link">
+  <a href="#orogenapriltagsapriltagsorogen" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic step by step fixes
+      orogen/apriltags/apriltags.orogen
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Basic step by step fixes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fix-time-unit-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      fix time unit issues
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#advanced-changes" class="md-nav__link">
+  <a href="#orogenapriltagsapriltagstypeshpp" class="md-nav__link">
     <span class="md-ellipsis">
-      (Advanced) Changes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="(Advanced) Changes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#clone-method" class="md-nav__link">
-    <span class="md-ellipsis">
-      Clone Method
+      orogen/apriltags/apriltagsTypes.hpp
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#orogenapriltagstaskstaskhpp" class="md-nav__link">
+    <span class="md-ellipsis">
+      orogen/apriltags/tasks/task.hpp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orogenapriltagstaskstaskcpp" class="md-nav__link">
+    <span class="md-ellipsis">
+      orogen/apriltags/tasks/task.cpp
+    </span>
+  </a>
   
 </li>
       
@@ -418,6 +385,29 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../orogen_uwv_kalman_filters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Orogen uwv kalman filters
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -455,50 +445,38 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#basic-step-by-step-fixes" class="md-nav__link">
+  <a href="#orogenapriltagsapriltagsorogen" class="md-nav__link">
     <span class="md-ellipsis">
-      Basic step by step fixes
+      orogen/apriltags/apriltags.orogen
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Basic step by step fixes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#fix-time-unit-issues" class="md-nav__link">
-    <span class="md-ellipsis">
-      fix time unit issues
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#advanced-changes" class="md-nav__link">
+  <a href="#orogenapriltagsapriltagstypeshpp" class="md-nav__link">
     <span class="md-ellipsis">
-      (Advanced) Changes
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="(Advanced) Changes">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#clone-method" class="md-nav__link">
-    <span class="md-ellipsis">
-      Clone Method
+      orogen/apriltags/apriltagsTypes.hpp
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#orogenapriltagstaskstaskhpp" class="md-nav__link">
+    <span class="md-ellipsis">
+      orogen/apriltags/tasks/task.hpp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#orogenapriltagstaskstaskcpp" class="md-nav__link">
+    <span class="md-ellipsis">
+      orogen/apriltags/tasks/task.cpp
+    </span>
+  </a>
   
 </li>
       
@@ -518,54 +496,86 @@
 
 
 
-  <h1>Orogen uwv kalman filters</h1>
+  <h1>Opencv apriltags</h1>
 
-<p>These steps are basically 1:1 with notes provided by Drew</p>
 <ul>
+<li>You can either follow the instructions below or clone from my repo</li>
 <li>Some changes are not listed here so it would be best to clone if you want latest changes</li>
 </ul>
-<h2 id="basic-step-by-step-fixes">Basic step by step fixes</h2>
-<p>-/home/vboxuser/rock/slam/uwv_kalman_filters
-with:</p>
-<p><a href="https://github.com/tomcreutz/slam-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-uwv_kalman_filters.git</a></p>
-<p>-/home/vboxuser/rock/slam/orogen/uwv_kalman_filters
-with:</p>
-<p><a href="https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git">https://github.com/tomcreutz/slam-orogen-uwv_kalman_filters.git</a></p>
-<h3 id="fix-time-unit-issues">fix time unit issues</h3>
+<p>~/dev/rock
+<code>autoproj show opencv</code></p>
+<p>check if opencv4 is installed, if not do:
+<code>sudo apt update</code>
+<code>sudo apt install libopencv-dev</code></p>
+<p>Not needed but you can add opencv to the layout (i forgot how i know this is the format to add to layout)</p>
+<pre><code>Layout:
+    - opencv
+</code></pre>
+<hr />
+<p>change folder rock/install/include/apriltag to rock/install/include/apriltags</p>
+<h2 id="orogenapriltagsapriltagsorogen">orogen/apriltags/apriltags.orogen</h2>
 <ul>
-<li>
-<p>/home/vboxuser/Desktop/rock/slam/orogen/uwv_kalman_filters/tasks/PoseEstimator.cpp</p>
-<ul>
-<li>replace line 419:</li>
-<li>base::Time current_sample_time = base::Time::fromMicroseconds(pose_filter-&gt;getLastMeasurementTime());</li>
-<li>with: base::Time current_sample_time = pose_filter-&gt;getLastMeasurementTime();</li>
-</ul>
-</li>
-<li>
-<p>/home/vboxuser/Desktop/rock/slam/orogen/uwv_kalman_filters/tasks/VelocityProvider.cpp</p>
-<ul>
-<li>replace old 247: base::Time current_sample_time = base::Time::fromMicroseconds(velocity_filter-&gt;getLastMeasurementTime());</li>
-<li>with: base::Time current_sample_time = velocity_filter-&gt;getLastMeasurementTime();</li>
+<li>using_library<ul>
+<li>apriltags → apriltag</li>
+<li>opencv → opencv4</li>
 </ul>
 </li>
 </ul>
-<p>amake</p>
-<h2 id="advanced-changes">(Advanced) Changes</h2>
+<h2 id="orogenapriltagsapriltagstypeshpp">orogen/apriltags/apriltagsTypes.hpp</h2>
 <ul>
-<li>Added web socket to send messages of log samples in rigid body state format</li>
-<li>adding implementation to apriltag transformer functions</li>
+<li>change the family_t enum<ul>
+<li>TAG25H7 → TAG16H5</li>
+<li>remove TAG36ARTOOLKIT</li>
 </ul>
-<h3 id="clone-method">Clone Method</h3>
+</li>
+</ul>
+<h2 id="orogenapriltagstaskstaskhpp">orogen/apriltags/tasks/task.hpp</h2>
+<p>remove the includes to tag25h7 and tag36artoolkit
+add <code>#include apriltags/tag16h5</code></p>
+<h2 id="orogenapriltagstaskstaskcpp">orogen/apriltags/tasks/task.cpp</h2>
+<p>configureHook()
+- change case TAG25H7 to case TAG16H5
+- tag16h5_create()
+- comment out tag36artoolkit case</p>
 <ul>
-<li>replace orogen folder with mine at</li>
+<li>comment out refine_decode and refine_pose<ul>
+<li>they don't exist</li>
 </ul>
-<p><a href="https://github.com/con169/slam-orogen-uwv_kalman_filters.git">https://github.com/con169/slam-orogen-uwv_kalman_filters.git</a></p>
+</li>
+</ul>
+<p>cleanupHook()
+- same as before for configureHook()</p>
+<p>updateHook()</p>
+<p>the apriltag_detection struct does not have properties: d, h, and goodness anymore. Change the printf to the following:</p>
+<pre><code class="language-cpp">if (!conf.quiet)
+
+                    printf(&quot;detection %3d: id %-4d, hamming %d, margin %8.3f\n&quot;,
+
+                            i, det-&gt;id, det-&gt;hamming, det-&gt;decision_margin);
+</code></pre>
+<p><img alt="figure 1" src="../../images/opencv_apriltags_figure1.png" /></p>
+<p>At this point, try amake so you can see the errors with opencv</p>
+<p>OpenCV uses a different variable for the line parameter (POST v4.0.0)
+CV_AA is deprecated, in version 4+ they use cv::line_AA</p>
+<p>replace CV_AA with cv::LINE_AA</p>
+<ul>
+<li>These changes are needed in:<ul>
+<li>void Task::draw</li>
+<li>void Task::draw3dCube</li>
+<li>void Task::draw3dAxis</li>
+</ul>
+</li>
+</ul>
+<p>These should be all of the changes needed to build rock and now you can simple <code>amake</code> inside perception/orogen/apriltags or /rock!</p>
 
 
 
 
 
 
+
+  
+  
 
 
 
