@@ -60,13 +60,13 @@ You can either refer to the in-depth documentation to fix them yourself or clone
 ### perception/orogen/apriltags
 https://github.com/con169/perception-orogen-apriltags
 
-Refer to full documentation fix [here](In-Depth/opencv_apriltags.md) for more in depth instructions and explanation. Otherwise, follow the readme seen on this repo.
+Refer to full documentation fix [here](Changes/opencv_apriltags.md) for more in depth instructions and explanation. Otherwise, follow the readme seen on this repo.
 
 ### slam/orogen/uwv_kalman_filters
 https://github.com/con169/slam-orogen-uwv_kalman_filters
 
 Same instructions, replace folder and amake.
 
-Refer to more in-depth [documentation](In-Depth/orogen_uwv_kalman_filters.md) for specific changes
+Refer to more in-depth [documentation](Changes/orogen_uwv_kalman_filters.md) for specific changes
 
 amake in `~/rock/` and should be done
